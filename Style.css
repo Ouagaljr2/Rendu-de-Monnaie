@@ -1,0 +1,71 @@
+*{
+	font-family: monospace;
+	background: #dce6df;
+}
+#titre{
+	border: 2px #ebb5b5 inset;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+	padding: 0px;
+}
+button{
+	background-color:#00cc99 ; 
+	margin: 0px;
+	padding: 4px;
+}
+button:hover{
+	background-color:  #4dffff;
+
+}
+
+#monnaies{
+	border: 2px solid;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	display: none;
+	padding-left: 10px
+
+}
+.billets{
+	height: 50px;
+	width: 90px;
+	margin: auto;
+	background-color: silver;
+
+}
+.billets:hover{
+	background-color: #CD5C5C;
+}
+.pieces{
+	background-color: silver;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+}
+.pieces:hover{
+	background-color: #CD5C5C;
+}
+#bas{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+@media screen and (max-width: 600px){
+	#titre{
+		width: 400px;
+	}
+	#monnaies{
+	width:400px; 
+    display: flex;
+	justify-content: space-around;}
+  }
+
+footer{
+	text-align: center;}
